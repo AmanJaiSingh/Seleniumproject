@@ -1,0 +1,1 @@
+]/calling-thread-header/div/calling-join-button/button/span').click()

@@ -1,0 +1,16 @@
+from selenium import webdriver
+import time
+driver = webdriver.Chrome()
+driver.get('https://www.instagram.com')
+time.sleep(1)
+driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[1]/div/label/input').send_keys('aman_jai_2002')
+time.sleep(1)
+driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[2]/div/label/input').send_keys('*shivam2002#')
+time.sleep(1)
+driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]/button/div').click()
+time.sleep(4)
+driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div/div/button').click()
+time.sleep(1)
+driver.find_element_by_xpath('/html/body/div[4]/div/div/div/div[3]/button[2]').click()
+time.sleep(1)
+driver.find_element_by_xpath('/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[2]/a').click()
